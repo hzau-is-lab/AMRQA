@@ -1,0 +1,56 @@
+paragraph: Maheen Khan is a Pakistani fashion and costume designer, also an award winner fashion designer for fashion labels like "The Embroidery House Maheen" and "Gulabo". She has done many national and international fashion events and shows. She undertook embroidery for the film Snow White and the Huntsman and television series The Jewel in the Crown.
+atomic facts:
+1. Maheen Khan is a Pakistani fashion designer.
+2. Maheen Khan is a Pakistani costume designer.
+3. Maheen Khan is an award-winning fashion designer.
+4. Maheen Khan owns the fashion label "The Embroidery House Maheen."
+5. Maheen Khan owns the fashion label "Gulabo."
+6. Maheen Khan has participated in many national fashion events and shows.
+7. Maheen Khan has participated in many international fashion events and shows.
+8. Maheen Khan undertook embroidery for the film Snow White and the Huntsman.
+9. Maheen Khan undertook embroidery for the television series The Jewel in the Crown.
+
+paragraph: Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer. He lives in Los Angeles, California. He is best known for directing horror films such as "Sinister", "The Exorcism of Emily Rose", and "Deliver Us From Evil", as well as the 2016 Marvel Cinematic Universe installment, "Doctor Strange".
+atomic facts:
+1. Scott Derrickson was born on July 16, 1966.
+2. Scott Derrickson is an American director.
+3. Scott Derrickson is an American screenwriter.
+4. Scott Derrickson is an American producer.
+5. Scott Derrickson lives in Los Angeles, California.
+6. Scott Derrickson is best known for directing horror films.
+7. Scott Derrickson directed the film "Sinister."
+8. Scott Derrickson directed the film "The Exorcism of Emily Rose."
+9. Scott Derrickson directed the film "Deliver Us From Evil."
+10. Scott Derrickson directed the 2016 Marvel Cinematic Universe film "Doctor Strange".
+
+paragraph: Meet Corliss Archer, a program from radio's Golden Age, ran from January 7, 1943 to September 30, 1956. Although it was CBS's answer to NBC's popular "A Date with Judy", it was also broadcast by NBC in 1948 as a summer replacement for "The Bob Hope Show". From October 3, 1952 to June 26, 1953, it aired on ABC, finally returning to CBS. Despite the program's long run, fewer than 24 episodes are known to exist.
+atomic facts:
+1. Meet Corliss Archer was a program from radio's Golden Age.
+2. Meet Corliss Archer ran from January 7, 1943 to September 30, 1956.
+3. Meet Corliss Archer was CBS's answer to NBC's popular "A Date with Judy".
+4. Meet Corliss Archer was broadcast by NBC in 1948.
+5. In 1948, Meet Corliss Archer was broadcast as a summer replacement for "The Bob Hope Show".
+6. From October 3, 1952 to June 26, 1953, Meet Corliss Archer aired on ABC.
+7. Meet Corliss Archer finally returned to CBS after airing on ABC.
+8. Despite the program's long run, fewer than 24 episodes of Meet Corliss Archer are known to exist.
+
+paragraph: South Korean boy group Shinee have received several awards and nominations for their music work. The group was formed by S.M. Entertainment in 2008 and released their first full-length album, "The Shinee World", on August 28, 2008, which won the Newcomer Album of the Year at the 23rd Golden Disk Awards. The first single released from the album was "Sanso Gateun Neo (Love Like Oxygen)" and won first place on "M Countdown" on September 18, 2008, making it the group's first win on Korean music shows since debut. Their second album "Lucifer" (2010) produced two singles, "Lucifer" and "Hello". For their outstanding choreography the group was nominated for the Best Dance Performance Award at the Mnet Asian Music Awards in 2010. "Lucifer" also won the Disk Bonsang Award at the 25th Golden Disk Awards as well as the Popularity Award. On March 21, 2012 the group released their fourth EP "Sherlock" for which the group was awarded another Disk Bonsang Award at the 27th Golden Disc Awards and the Bonsang Award at the 22nd Seoul Music Award. Also following the success of the lead single it was also nominated for Song of the Year at the 2012 Mnet Asian Music Awards.
+atomic facts:
+1. Shinee is a South Korean boy group.
+2. Shinee have received several awards and nominations for their music work.
+3. Shinee was formed by S.M. Entertainment in 2008.
+4. Shinee released their first full-length album "The Shinee World" on August 28, 2008.
+5. "The Shinee World" won the Newcomer Album of the Year at the 23rd Golden Disk Awards.
+6. The first single released from "The Shinee World" was "Sanso Gateun Neo (Love Like Oxygen)".
+7. "Sanso Gateun Neo (Love Like Oxygen)" won first place on "M Countdown" on September 18, 2008.
+8. The "M Countdown" win on September 18, 2008 was Shinee's first win on Korean music shows since their debut.
+9. Shinee released their second album "Lucifer" in 2010.
+10. The album "Lucifer" produced the single "Lucifer".
+11. The album "Lucifer" produced the single "Hello".
+12. For their outstanding choreography, Shinee was nominated for the Best Dance Performance Award at the 2010 Mnet Asian Music Awards.
+13. "Lucifer" won the Disk Bonsang Award at the 25th Golden Disk Awards.
+14. "Lucifer" also won the Popularity Award at the 25th Golden Disk Awards.
+15. Shinee released their fourth EP "Sherlock" on March 21, 2012.
+16. For "Sherlock", Shinee was awarded the Disk Bonsang Award at the 27th Golden Disc Awards.
+17. For "Sherlock", Shinee was awarded the Bonsang Award at the 22nd Seoul Music Awards.
+18. The lead single from "Sherlock" was nominated for Song of the Year at the 2012 Mnet Asian Music Awards.

@@ -1,0 +1,53 @@
+# A dependency-free configuration for verifying the full data and trace pipeline.
+seed: 42
+
+model:
+  provider: dry_run
+  model_name: dry-run
+  temperature: 0.0
+  candidate_generation_temperature: 0.7
+  max_tokens: 256
+  max_retries: 0
+  require_usage: false
+
+embedding:
+  model_name: hashing
+  model_path_env: AMRQA_EMBEDDING_MODEL_DIR
+  device: cpu
+  batch_size: 32
+
+reranker:
+  model_name: lexical
+  model_path_env: AMRQA_RERANKER_MODEL_DIR
+  device: cpu
+  use_fp16: false
+
+amr:
+  reference_source: question
+  parser_model_dir_env: AMRQA_STOG_MODEL_DIR
+  generator_model_dir_env: AMRQA_GTOS_MODEL_DIR
+  max_paths: 1
+  max_hops: 1
+
+prompts:
+  use_react_demonstrations: false
+  use_atomic_fact_demonstrations: false
+  atomic_fact_max_tokens: 256
+
+reasoning:
+  max_depth: 1
+  candidate_count: 1
+  candidate_history_mode: full
+  path_width: 1
+  amr_reference_weight: 0.5
+  candidate_scoring_mode: joint
+  retrieval_k: 3
+  rerank_k: 1
+  facts_per_observation: 2
+  observation_mode: atomic_facts
+  no_answer: "No-answer"
+
+runtime:
+  log_level: INFO
+  timeout_seconds: 180.0
+  capture_explored_paths: true

@@ -1,0 +1,33 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+
+# Generated experiment artifacts
+outputs/*
+!outputs/.gitkeep
+*.log
+*.pem
+*.key
+credentials*.json
+
+# Downloaded data and model files (keep only the documentation in Git)
+data/raw/
+data/processed/
+models/

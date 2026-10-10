@@ -1,0 +1,54 @@
+seed: 42
+
+model:
+  provider: openai_compatible
+  model_name: gpt-3.5-turbo
+  api_key_env: AMRQA_API_KEY
+  base_url_env: AMRQA_BASE_URL
+  temperature: 0.0
+  candidate_generation_temperature: 0.7
+  max_tokens: 1024
+  max_retries: 0
+  require_usage: true
+
+embedding:
+  model_name: BAAI/bge-base-en-v1.5
+  model_path_env: AMRQA_EMBEDDING_MODEL_DIR
+  device: auto
+  batch_size: 32
+
+reranker:
+  model_name: BAAI/bge-reranker-v2-m3
+  model_path_env: AMRQA_RERANKER_MODEL_DIR
+  device: auto
+  use_fp16: true
+
+amr:
+  reference_source: amr
+  parser_model_dir_env: AMRQA_STOG_MODEL_DIR
+  generator_model_dir_env: AMRQA_GTOS_MODEL_DIR
+  max_paths: 8
+  max_hops: 8
+
+prompts:
+  use_react_demonstrations: true
+  use_atomic_fact_demonstrations: true
+  atomic_fact_max_tokens: 1024
+
+reasoning:
+  max_depth: 6
+  candidate_count: 3
+  candidate_history_mode: full
+  path_width: 2
+  amr_reference_weight: 0.5
+  candidate_scoring_mode: joint
+  retrieval_k: 5
+  rerank_k: 2
+  facts_per_observation: 3
+  observation_mode: atomic_facts
+  no_answer: No-answer
+
+runtime:
+  log_level: INFO
+  timeout_seconds: 180.0
+  capture_explored_paths: true

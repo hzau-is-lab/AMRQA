@@ -1,0 +1,15 @@
+# Declare the complete primary family in one manifest so Holm correction is applied jointly.
+# The manuscript family contains 27 AMRQA-baseline conditions and two metrics, or 54 tests.
+bootstrap_resamples: 10000
+randomization_trials: 100000
+analysis_seed: 42
+metrics: [em, f1]
+
+comparison_grid:
+  # This Cartesian grid declares 3 x 3 x 3 x 2 = 54 primary tests before analysis.
+  backbones: [qwen, gpt35, gpt4o]
+  datasets: [hotpot, musique, 2wiki]
+  baselines: [dec, trqa, genground]
+  system_method: amrqa
+  seeds: [42, 43, 44]
+  trace_pattern: outputs/{backbone}_{dataset}_{method}_seed{seed}.jsonl
